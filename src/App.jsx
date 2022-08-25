@@ -8,7 +8,7 @@ function App() {
   return (
     <Routes>
       <Route exact path={BASE_URL} element={<Main />}>
-        <Route exact path="" element={<Navigate to="/main" replace />}></Route>
+        <Route exact path="" element={<Navigate to={ROUTER_PATH.main} replace />}></Route>
         <Route exact path="main" element={<Card />}></Route>
         <Route exact path="form" element={<CreateForm />}></Route>
       </Route>
