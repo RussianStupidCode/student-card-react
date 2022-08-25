@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/student-card-react/static/css/main.24b68c36.css",
+    "main.js": "/student-card-react/static/js/main.6dded9d2.js",
+    "index.html": "/student-card-react/index.html",
+    "main.24b68c36.css.map": "/student-card-react/static/css/main.24b68c36.css.map",
+    "main.6dded9d2.js.map": "/student-card-react/static/js/main.6dded9d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24b68c36.css",
+    "static/js/main.6dded9d2.js"
+  ]
+}
