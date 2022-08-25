@@ -11,7 +11,7 @@ const Card = () => {
     : undefined;
 
   const handleSubmit = () => {
-    navigate(ROUTER_PATH.form);
+    navigate(ROUTER_PATH.form, { replace: true });
   };
 
   return <StudentCard storageData={studentData} onSubmit={handleSubmit} />;

@@ -11,7 +11,7 @@ const CreateForm = () => {
   };
 
   const handleSubmit = () => {
-    navigate(ROUTER_PATH.main);
+    navigate(ROUTER_PATH.main, { replace: true });
   };
 
   const studentData = window.localStorage.student;
