@@ -13,7 +13,7 @@ function App() {
         <Route
           exact
           path=""
-          element={<Navigate to={ROUTER_PATH.main} />}
+          element={<Navigate to={ROUTER_PATH.main} replace />}
         ></Route>
       </Route>
     </Routes>
