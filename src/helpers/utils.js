@@ -13,14 +13,14 @@ const birthDateToString = (birthDate) => {
   const remainder = number % 10;
 
   if (remainder === 1 && number !== 11) {
-    return `${birthDate} ${age} год`;
+    return `${birthDate} (${age} год)`;
   }
 
   if (remainder > 1 && remainder < 5 && (number < 11 || number > 14)) {
-    return `${birthDate} ${age} года`;
+    return `${birthDate} (${age} года)`;
   }
 
-  return `${birthDate} ${age} лет`;
+  return `${birthDate} (${age} лет)`;
 };
 
 export { MAX_AGE, MIN_AGE, birthDateToString };
