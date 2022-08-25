@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/student-card-react/static/css/main.24b68c36.css",
-    "main.js": "/student-card-react/static/js/main.a575736a.js",
+    "main.js": "/student-card-react/static/js/main.5418a593.js",
     "index.html": "/student-card-react/index.html",
     "main.24b68c36.css.map": "/student-card-react/static/css/main.24b68c36.css.map",
-    "main.a575736a.js.map": "/student-card-react/static/js/main.a575736a.js.map"
+    "main.5418a593.js.map": "/student-card-react/static/js/main.5418a593.js.map"
   },
   "entrypoints": [
     "static/css/main.24b68c36.css",
-    "static/js/main.a575736a.js"
+    "static/js/main.5418a593.js"
   ]
 }
